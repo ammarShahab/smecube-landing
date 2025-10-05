@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router";
-import Home from "./pages/HomePage";
+/* import Home from "./pages/HomePage";
 import FacebookBoost from "./pages/FacebookBoost";
-import BusinessConsulting from "./pages/BusinessConsulting";
-import BrandPageSetup from "./pages/BrandPageSetup";
+import BrandPageSetup from "./pages/BrandPageSetup"; */
 import App from "./App";
+import SMECubeLanding from "./components/SMECubeLanding";
+import BusinessConsulting from "./pages/BusinessConsulting";
 
 const router = createBrowserRouter([
   {
@@ -12,31 +13,25 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: async () => {
+        /* loader: async () => {
           const res = await fetch("/services.json");
           const data = await res.json();
           return data;
-        },
-        element: <Home />,
-      },
-      {
-        path: "service/facebook-boosting",
-        // loader: () => fetch("/services.json"),
-        // Component: ServicePageLayout,
-        element: <FacebookBoost />,
+        }, */
+        element: <SMECubeLanding />,
       },
       {
         path: "service/business-consulting",
-        // loader: () => fetch("/services.json"),
-        // Component: ServicePageLayout,
         element: <BusinessConsulting />,
       },
-      {
-        path: "service/brand-page-setup",
-        // loader: () => fetch("/services.json"),
-        // Component: ServicePageLayout,
-        element: <BrandPageSetup />,
-      },
+      //   {
+      //     path: "service/business-consulting",
+      //     element: <BusinessConsulting />,
+      //   },
+      //   {
+      //     path: "service/brand-page-setup",
+      //     element: <BrandPageSetup />,
+      //   },
     ],
   },
 ]);

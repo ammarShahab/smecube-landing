@@ -47,30 +47,12 @@ const Header = ({ mobileMenuOpen, scrolled, setMobileMenuOpen }) => {
             {navItems.map((item, idx) => (
               <NavLink
                 key={idx}
-                href={item.path}
+                to={item.path}
                 className="px-4 py-2 text-gray-700 hover:text-red-500 transition-colors font-medium rounded-lg hover:bg-red-50"
               >
                 {item.name}
               </NavLink>
             ))}
-            {/*  <a
-              href="#services"
-              className="px-4 py-2 text-gray-700 hover:text-red-500 transition-colors font-medium rounded-lg hover:bg-red-50"
-            >
-              সার্ভিস
-            </a>
-            <a
-              href="#pricing"
-              className="px-4 py-2 text-gray-700 hover:text-red-500 transition-colors font-medium rounded-lg hover:bg-red-50"
-            >
-              প্রাইসিং
-            </a>
-            <a
-              href="#contact"
-              className="px-4 py-2 text-gray-700 hover:text-red-500 transition-colors font-medium rounded-lg hover:bg-red-50"
-            >
-              যোগাযোগ
-            </a>{" "} */}
             <button className="ml-4 bg-gradient-to-r from-red-500 to-pink-600 text-white px-6 py-2.5 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 font-semibold">
               ক্লায়েন্ট এরিয়া
             </button>

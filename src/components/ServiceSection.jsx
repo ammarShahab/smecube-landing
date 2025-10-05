@@ -1,5 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import React from "react";
+import { Link } from "react-router";
 
 const ServiceSection = ({ services }) => {
   return (
@@ -53,7 +54,10 @@ const ServiceSection = ({ services }) => {
                 </p>
 
                 <div className="flex items-center text-red-500 group-hover:text-white font-semibold pt-2">
-                  বিস্তারিত
+                  <Link to={service.link} className="flex items-center">
+                    বিস্তারিত
+                  </Link>
+
                   <ChevronRight className="w-5 h-5 ml-1 group-hover:translate-x-2 transition-transform" />
                 </div>
               </div>
