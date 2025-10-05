@@ -92,6 +92,7 @@ export default function SMECubeLanding() {
       desc: "প্রফেশনাল বিজনেস পেজ সেটআপ",
       gradient: "from-cyan-500 to-blue-600",
       iconBg: "bg-cyan-50",
+      link: "/service/brand-page-setup",
     },
     {
       icon: <PenTool className="w-10 h-10" />,
@@ -180,9 +181,6 @@ export default function SMECubeLanding() {
 
       {/* CTA Section */}
       <CTASection />
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

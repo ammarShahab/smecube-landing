@@ -1,10 +1,8 @@
 import { createBrowserRouter } from "react-router";
-/* import Home from "./pages/HomePage";
-import FacebookBoost from "./pages/FacebookBoost";
-import BrandPageSetup from "./pages/BrandPageSetup"; */
 import App from "./App";
 import SMECubeLanding from "./components/SMECubeLanding";
 import BusinessConsulting from "./pages/BusinessConsulting";
+import BrandPageSetup from "./pages/BrandPageSetup";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "service/business-consulting",
         element: <BusinessConsulting />,
+      },
+      {
+        path: "service/brand-page-setup",
+        element: <BrandPageSetup />,
       },
       //   {
       //     path: "service/business-consulting",
