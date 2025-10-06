@@ -38,10 +38,10 @@ const BusinessMngConsulting = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
           <h3 className="text-3xl md:text-4xl font-semibold text-gray-900">
-            একজন{" "}
+            একজন
             <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
               ফার্স্ট-ক্লাস
-            </span>{" "}
+            </span>
             বিজনেস কনসালটেন্ট খুঁজছেন?
           </h3>
           <button className="bg-gradient-to-r from-pink-500 to-orange-500 hover:from-orange-500 hover:to-pink-500 text-white px-6 py-3 rounded-full font-medium transition shadow-lg">
@@ -51,7 +51,7 @@ const BusinessMngConsulting = () => {
 
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-16">
-          বিজনেস ম্যানেজমেন্ট কনসালটিং{" "}
+          বিজনেস ম্যানেজমেন্ট কনসালটিং
           <span className="bg-gradient-to-r from-teal-500 to-green-500 bg-clip-text text-transparent">
             সার্ভিসেস
           </span>

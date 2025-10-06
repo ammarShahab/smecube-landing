@@ -14,10 +14,10 @@ const ServiceSection = ({ services }) => {
             আমাদের সেবাসমূহ
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900">
-            নিচ থেকে{" "}
+            নিচ থেকে
             <span className="bg-gradient-to-r from-red-600 to-pink-600 bg-clip-text text-transparent">
               সার্ভিস
-            </span>{" "}
+            </span>
             সিলেক্ট করুন
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

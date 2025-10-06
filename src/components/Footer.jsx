@@ -120,7 +120,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            ©2025 All Rights Reserved By{" "}
+            ©2025 All Rights Reserved By
             <span className="text-red-400 font-semibold">SME CUBE LTD</span>
           </p>
         </div>

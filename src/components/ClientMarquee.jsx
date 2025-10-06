@@ -24,7 +24,7 @@ const ClientMarquee = () => {
     webworld,
   ];
   return (
-    <div className="mx-auto my-16 px-4 text-center text-4xl">
+    <div className="mx-auto my-16 px-4 text-center text-4xl font-semibold">
       <h3>
         আমাদের<span className="text-red-600"> সম্মানিত</span> ক্লায়েন্টগণ
       </h3>

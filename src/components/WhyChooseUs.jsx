@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
       <div className="max-w-6xl mx-auto text-center">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-black mb-12">
-          কেন আমাদের{" "}
+          কেন আমাদের
           <span className="text-red-600">বিজনেস কনসালটিং সার্ভিস</span> বেছে
           নেবেন?
         </h2>

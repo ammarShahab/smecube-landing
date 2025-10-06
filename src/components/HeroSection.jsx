@@ -18,8 +18,7 @@ const HeroSection = () => {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 leading-tight">
               আপনার ব্যবসার
               <span className="bg-gradient-to-r from-red-600 via-pink-600 to-purple-600 bg-clip-text text-transparent">
-                {" "}
-                ডিজিটাল{" "}
+                ডিজিটাল
               </span>
               রূপান্তর
             </h1>

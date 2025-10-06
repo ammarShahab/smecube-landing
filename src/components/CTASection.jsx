@@ -12,7 +12,6 @@ const CTASection = () => {
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight">
           আপনার প্রজেক্ট শুরু করতে
           <span className="bg-gradient-to-r from-red-400 to-pink-400 bg-clip-text text-transparent">
-            {" "}
             প্রস্তুত?
           </span>
         </h2>
