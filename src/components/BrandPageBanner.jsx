@@ -13,20 +13,17 @@ const BrandPageBanner = () => {
     "ডিটেলস রিপোর্ট প্রদান",
   ];
   return (
-    <div className="max-w-7xl mx-auto my-6 mt-18 flex justify-between items-center">
-      <div className="relative overflow-hidden">
+    <div className="max-w-6xl mx-auto my-6 mt-18 flex gap-10 justify-between items-center">
+      <div className="overflow-hidden flex-1 w-full h-full">
         {/* Right Side Border Accent */}
-        <div className="absolute top-0 right-0 h-full w-2 bg-red-500"></div>
+        {/* <div className="absolute top-0 right-0 h-full w-2 bg-red-500"></div> */}
 
         {/* Image */}
-        <img
-          src={brandPageBanner}
-          alt="sample"
-          className="w-full h-1/2 object-cover"
-        />
+        <img src={brandPageBanner} alt="sample" className="object-cover" />
       </div>
+
       {/* Content */}
-      <div className="my-12 p-6 h-full border-2 border-dotted border-red-600 rounded-lg shadow-md bg-white">
+      <div className="my-12 h-full border-2 border-dotted border-red-600 rounded-lg shadow-md bg-white">
         {/* Header */}
         <h2 className="text-2xl font-bold text-center bg-red-600 text-white py-3 rounded-t-lg">
           ব্র্যান্ড সেটআপ
@@ -41,7 +38,7 @@ const BrandPageBanner = () => {
           ))}
         </div>
         {/* Button */}
-        <div className="text-center mt-6">
+        <div className="text-center mt-6 p-2">
           <button className="px-6 py-2 bg-red-600 hover:bg-black text-white font-semibold rounded-lg transition duration-300">
             অর্ডার করুন
           </button>
