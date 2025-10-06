@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router";
+import ScrollToTop from "./utils/scrollToTop";
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,6 +15,7 @@ function App() {
   }, []);
   return (
     <>
+      <ScrollToTop />
       {/* Header */}
       <Header
         scrolled={scrolled}

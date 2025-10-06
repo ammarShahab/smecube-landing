@@ -32,7 +32,6 @@ import StatsSection from "./StatsSection";
 import ServiceSection from "./ServiceSection";
 import FeaturesSection from "./FeaturesSection";
 import CTASection from "./CTASection";
-import Footer from "./Footer";
 
 export default function SMECubeLanding() {
   const services = [
